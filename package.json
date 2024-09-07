@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "NG_BUILD_PARALLEL_TS=0 ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration=production",
     "watch": "ng build --watch --configuration development"
   },
   "private": true,
